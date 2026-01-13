@@ -8,9 +8,6 @@
 import SwiftUI
 import UIKit
 
-import SwiftUI
-import UIKit
-
 /// Custom vertical infinite pager using UIScrollView + 3 UIHostingControllers
 /// Supports async readiness gating before page change + manual commit for pool rotation
 struct VerticalPager<Prev: View, Curr: View, Next: View>: UIViewControllerRepresentable {
