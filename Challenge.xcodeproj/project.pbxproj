@@ -29,9 +29,58 @@
 		48179C4E2F15494500FECF53 /* ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		48179C672F154A5600FECF53 /* Exceptions for "Challenge" folder in "ChallengeTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Core/ManifestService.swift,
+				Core/Models.swift,
+				Core/VideoCatalog.swift,
+				Playback/AudioSession.swift,
+				Playback/LoopingSlot.swift,
+				Playback/PlaybackCoordinator.swift,
+				Playback/PlayerPool.swift,
+				UI/Feed/FeedView.swift,
+				UI/Feed/FeedViewModel.swift,
+				UI/Feed/PlayerLayerView.swift,
+				UI/Feed/VerticalPager.swift,
+				UI/Input/AutoSizingTextView.swift,
+				UI/Input/InlineInputBar.swift,
+				UI/Input/KeyboardObserver.swift,
+				Utils/Clamp.swift,
+			);
+			target = 48179C432F15494500FECF53 /* ChallengeTests */;
+		};
+		48179C682F154A5600FECF53 /* Exceptions for "Challenge" folder in "ChallengeUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Core/ManifestService.swift,
+				Core/Models.swift,
+				Core/VideoCatalog.swift,
+				Playback/AudioSession.swift,
+				Playback/LoopingSlot.swift,
+				Playback/PlaybackCoordinator.swift,
+				Playback/PlayerPool.swift,
+				UI/Feed/FeedView.swift,
+				UI/Feed/FeedViewModel.swift,
+				UI/Feed/PlayerLayerView.swift,
+				UI/Feed/VerticalPager.swift,
+				UI/Input/AutoSizingTextView.swift,
+				UI/Input/InlineInputBar.swift,
+				UI/Input/KeyboardObserver.swift,
+				Utils/Clamp.swift,
+			);
+			target = 48179C4D2F15494500FECF53 /* ChallengeUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		48179C362F15494300FECF53 /* Challenge */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				48179C672F154A5600FECF53 /* Exceptions for "Challenge" folder in "ChallengeTests" target */,
+				48179C682F154A5600FECF53 /* Exceptions for "Challenge" folder in "ChallengeUITests" target */,
+			);
 			path = Challenge;
 			sourceTree = "<group>";
 		};
